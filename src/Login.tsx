@@ -85,7 +85,7 @@ export default function Login({ onLogin }: LoginProps) {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full pl-10 pr-4 py-3 border border-border-soft rounded-xl focus:outline-none focus:border-clay transition-colors bg-white"
-                placeholder="Ingrese su cédula"
+                placeholder="Ingrese su contraseña"
                 required
               />
             </div>
