@@ -47,7 +47,7 @@ export default function Login({ onLogin }: LoginProps) {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 border border-border-soft">
         <div className="text-center mb-8">
           <img 
-            src="/logo.png" 
+            src="./logo.png" 
             alt="Gveva Logo" 
             className="w-20 h-20 mx-auto mb-4 object-contain"
             onError={(e) => (e.currentTarget.style.display = 'none')}
