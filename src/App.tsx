@@ -393,7 +393,7 @@ export default function App({ onLogout }: { onLogout: () => void }) {
       {/* Print View (Only visible when printing) */}
       <div className="print-only p-8 text-black bg-white">
         <div className="text-center border-b-2 border-black pb-8 mb-12">
-          <img src="./logo.png" alt="" className="w-32 h-32 mx-auto mb-6 object-contain" />
+          <img src="/logo.png" alt="" className="w-32 h-32 mx-auto mb-6 object-contain" />
           <h1 className="text-5xl font-serif font-black uppercase mb-4">Guía del Taller de Dibujo</h1>
           <p className="text-xl italic">Un programa estructurado de 10 clases / 20 horas</p>
         </div>
