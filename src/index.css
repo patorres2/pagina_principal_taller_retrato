@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colores personalizados */
+  --color-clay: #c17a5d;
+  --color-paper: #faf6f0;
+  --color-ink: #2c2a29;
+  --color-olive: #6b705c;
+  --color-border-soft: #e8e2d9;
+  
+  /* Fuentes */
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Estilos base */
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
