@@ -34,7 +34,7 @@ export const WORKSHOP_DATA: Module[] = [
   {
     id: "loomis",
     title: "Técnicas para aprender a Dibujar",
-    description: "La estructura fundamental de la cabeza humana basada en esferas y planos.",
+    description: "El camino para potenciar nuestra habilidad en el dibujo. Prácticas, métodos y ejercicios para desarrollar la observación, la motricidad y la comprensión de las formas básicas.",
     icon: "CircleDashed",
     tips: [
       "No te preocupes por el detalle al principio, enfócate en la esfera.",
@@ -52,14 +52,14 @@ export const WORKSHOP_DATA: Module[] = [
       {
         number: 2,
         title: "La Esfera y el Plano Lateral",
-        duration: "2 horas",
+        duration: "1 hora",
         objective: "Entender el volumen básico del cráneo y la sección lateral.",
         pdfUrl: "/pdfs/sesion-1.pdf"  // ← Se agrega esta línea
       },
       {
         number: 3,
         title: "Divisiones de la Cara",
-        duration: "2 horas",
+        duration: "1 hora",
         objective: "Proyectar la mandíbula y dividir el rostro en tercios proporcionales.",
         pdfUrl: "/pdfs/sesion-2.pdf"  // ← Se agrega esta línea
       }
