@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   /* Colores personalizados */
   --color-clay: #c17a5d;
   --color-paper: #faf6f0;
