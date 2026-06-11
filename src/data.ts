@@ -33,7 +33,7 @@ export interface Module {
 export const WORKSHOP_DATA: Module[] = [
   {
     id: "loomis",
-    title: "El Método de Loomis",
+    title: "Técnicas para aprender a Dibujar",
     description: "La estructura fundamental de la cabeza humana basada en esferas y planos.",
     icon: "CircleDashed",
     tips: [
@@ -44,13 +44,20 @@ export const WORKSHOP_DATA: Module[] = [
     classes: [
       {
         number: 1,
+        title: "Aprender a Observar",
+        duration: "2 horas",
+        objective: "Practicar la observación y la motricidad.",
+        pdfUrl: "/pdfs/sesion inicial.pdf"  // ← Se agrega esta línea
+      },
+      {
+        number: 2,
         title: "La Esfera y el Plano Lateral",
         duration: "2 horas",
         objective: "Entender el volumen básico del cráneo y la sección lateral.",
         pdfUrl: "/pdfs/sesion-1.pdf"  // ← Se agrega esta línea
       },
       {
-        number: 2,
+        number: 3,
         title: "Divisiones de la Cara",
         duration: "2 horas",
         objective: "Proyectar la mandíbula y dividir el rostro en tercios proporcionales.",
