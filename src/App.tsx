@@ -95,20 +95,27 @@ export default function App({ onLogout }: { onLogout: () => void }) {
 
           <div className="flex items-center gap-3">
             <button 
-              onClick={() => setView("schedule")}
-              className={`px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-all ${view === 'schedule' ? 'bg-clay text-white shadow-lg shadow-clay/20' : 'bg-white border border-border-soft hover:border-clay hover:text-clay'}`}
-            >
-              Cronograma
-            </button>
+    onClick={() => setView("schedule")}
+    className={`px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-all inline-flex items-center gap-2 ${
+      view === 'schedule' 
+        ? 'bg-clay text-white shadow-lg shadow-clay/20' 
+        : 'bg-white border border-border-soft text-clay hover:bg-clay hover:text-white hover:border-clay'
+    }`}
+  >
+    Cronograma
+  </button>
             
             <button 
-              onClick={handlePrint}
-              className="px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-all bg-clay text-white shadow-lg shadow-clay/20 hover:bg-clay/90"
-            >
-              <Download size={14} />
-              <span className="hidden sm:inline">Descargar cronograma</span>
-            </button>
-            
+    onClick={handlePrint}
+    className={`px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-all inline-flex items-center gap-2 ${
+      view === 'schedule' 
+        ? 'bg-clay text-white shadow-lg shadow-clay/20' 
+        : 'bg-white border border-border-soft text-clay hover:bg-clay hover:text-white hover:border-clay'
+    }`}
+  >
+    <Download size={14} />
+    <span className="hidden sm:inline">Descargar cronograma</span>
+  </button>
             {/* Botón de Cerrar Sesión - AGREGADO */}
             <button 
               onClick={onLogout}
