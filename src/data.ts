@@ -47,7 +47,7 @@ export const WORKSHOP_DATA: Module[] = [
         title: "Aprender a Observar",
         duration: "2 horas",
         objective: "Practicar la observación y la motricidad.",
-        pdfUrl: "/pdfs/sesion inicial.pdf"  // ← Se agrega esta línea
+        pdfUrl: "/pdfs/sesion_inicial.pdf"  // ← Se agrega esta línea
       },
       {
         number: 2,

@@ -227,7 +227,7 @@ export default function App({ onLogout }: { onLogout: () => void }) {
                                     </button>
                                     <button
                                       onClick={() => handleDownloadPdf(pdf, `${c.title} - PDF ${pdfIdx + 1}`)}
-                                      className="flex items-center gap-1 px-3 py-1.5 bg-clay/10 text-clay rounded-lg text-xs font-medium hover:bg-clay/20 transition-colors"
+                                      className="flex items-center gap-2 px-6 py-3 bg-clay text-white rounded-full text-xs font-bold uppercase tracking-widest hover:bg-clay/90 transition-all shadow-lg shadow-clay/20"
                                     >
                                       <Download size={12} /> Descargar
                                     </button>
