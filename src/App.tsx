@@ -103,10 +103,10 @@ export default function App({ onLogout }: { onLogout: () => void }) {
             
             <button 
               onClick={handlePrint}
-              className="flex items-center gap-2 px-6 py-3 bg-clay text-white rounded-full text-xs font-bold uppercase tracking-widest hover:bg-clay/90 transition-all shadow-lg shadow-clay/20"
+              className="px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest transition-all bg-clay text-white shadow-lg shadow-clay/20 hover:bg-clay/90"
             >
               <Download size={14} />
-              <span className="hidden sm:inline">PDF</span>
+              <span className="hidden sm:inline">Descargar cronograma</span>
             </button>
             
             {/* Botón de Cerrar Sesión - AGREGADO */}
