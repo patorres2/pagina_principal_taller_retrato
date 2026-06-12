@@ -8,11 +8,11 @@ interface LoginProps {
 // Lista de usuarios autorizados con sus contraseñas
 // Aquí puedes agregar/modificar los usuarios manualmente
 const authorizedUsers = [
-  { email: 'torrespame2@gmail.com', password: 'taller2026' },      // Cédula del alumno 1
-  { email: 'dariocalvo89@gmail.com', password: 'tulio2026' },      // Cédula del alumno 2
-  { email: 'selenitus27@gmail.com', password: 'nuruoli2026' },      // Cédula del alumno 3
-  { email: 'eliseoov@gmail.com', password: 'eliseo2026' },      // Cédula del alumno 4
-  { email: 'alumno5@ejemplo.com', password: '77788899' },      // Cédula del alumno 5
+  { email: 'torrespame2@gmail.com', password: 'taller2026' },      // credenciales pame
+  { email: 'dariocalvo89@gmail.com', password: 'tulio2026' },      // credenciales dari
+  { email: 'selenitus27@gmail.com', password: 'nuruoli2026' },      // credenciales seles
+  { email: 'eliseoov@gmail.com', password: 'eliseo2026' },      // credenciales de eliseo
+  { email: 'mbokajaty1969@ejemplo.com', password: 'jara1969*' },      // credenciales de Luis Jara
   { email: 'alumno6@ejemplo.com', password: '12398745' },      // Cédula del alumno 6
   { email: 'alumno7@ejemplo.com', password: '32165487' },      // Cédula del alumno 7
   { email: 'alumno8@ejemplo.com', password: '45678912' },      // Cédula del alumno 8
