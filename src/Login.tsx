@@ -12,7 +12,7 @@ const authorizedUsers = [
   { email: 'dariocalvo89@gmail.com', password: 'tulio2026' },      // credenciales dari
   { email: 'selenitus27@gmail.com', password: 'nuruoli2026' },      // credenciales seles
   { email: 'eliseoov@gmail.com', password: 'eliseo2026' },      // credenciales de eliseo
-  { email: 'mbokajaty1969@ejemplo.com', password: 'jara1969*' },      // credenciales de Luis Jara
+  { email: 'mbokajaty1969@gmail.com', password: 'jara1969*' },      // credenciales de Luis Jara
   { email: 'alumno6@ejemplo.com', password: '12398745' },      // Cédula del alumno 6
   { email: 'alumno7@ejemplo.com', password: '32165487' },      // Cédula del alumno 7
   { email: 'alumno8@ejemplo.com', password: '45678912' },      // Cédula del alumno 8
