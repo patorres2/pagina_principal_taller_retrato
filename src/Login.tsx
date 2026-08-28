@@ -15,7 +15,7 @@ const authorizedUsers = [
   { email: 'mbokajaty1969@gmail.com', password: 'jara1969*' },      // credenciales de Luis Jara
   { email: 'silviamartinezlarrea@gmail.com', password: 'silvia2026*' },      // credenciales Silvia Montiel
   { email: 'nidiavillalba85@gmail.com', password: 'nidia85*' },      // credenciales Nidia Villalba
-  { email: 'alumno8@ejemplo.com', password: '45678912' },      // Cédula del alumno 8
+  { email: 'alice_zarate@outlook.com', password: 'alison2026' },      // credenciales Alison Zarate
   { email: 'profesor@taller.com', password: 'profesor2026' },  // Profesor
   { email: 'admin@taller.com', password: 'admin2026' }         // Administrador
 ];
